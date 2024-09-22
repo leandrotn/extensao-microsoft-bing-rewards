@@ -1,0 +1,1 @@
+# extensao-microsoft-bing-rewards
