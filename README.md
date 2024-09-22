@@ -16,7 +16,7 @@ Este projeto é uma extensão que automatiza o processo de pesquisa no **Microso
 ### Instalação
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/SeuUsuario/SeuRepositorio.git
+   git clone https://github.com/leandrotn/extensao-microsoft-bing-rewardso.git
 
 
 
