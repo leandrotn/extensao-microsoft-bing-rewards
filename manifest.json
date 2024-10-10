@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Gerador de Palavra Aleatória",
+  "version": "1.0",
+  "description": "Gera uma palavra aleatória e insere no campo de pesquisa do Microsoft Edge",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/rewards16.png",
+      "48": "icons/rewards48.png",
+      "128": "icons/rewards128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/rewards16.png",
+    "48": "icons/rewards48.png",
+    "128": "icons/rewards128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bing.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
